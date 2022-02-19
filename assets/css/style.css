@@ -1,3 +1,33 @@
 :root {
     font-family: 'Nunito';
+    background-color: lightgrey;
+    color: maroon;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#headerText {
+    text-align: center;
+}
+
+.img {
+    max-width: 250px;
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    border: 15px solid black;
+}
+
+.form {
+    text-align: center;
+}
+
+.navBar {
+    display: inline;
 }
