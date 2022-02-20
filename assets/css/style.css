@@ -68,3 +68,13 @@ ul {
  #fname {
     background-color: lightgrey;
   }
+
+  /* Footer */
+  .footer {
+      text-align: center;
+      background-color: #333;
+      color: lightgrey;
+      padding: 6px;
+      margin: 0 auto;
+
+  }
