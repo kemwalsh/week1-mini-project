@@ -4,6 +4,7 @@
     color: maroon;
 }
 
+/* Header */
 .header {
     text-align: center;
     font-weight: bold;
@@ -14,20 +15,56 @@
     text-align: center;
 }
 
+/* Image */
 .img {
     max-width: 250px;
     max-height: 250px;
-    display: flex;
-    justify-content: center;
-    margin: 20px;
+    display: block;
+ margin: 0px auto;
     padding: 10px;
     border: 15px solid black;
 }
 
+/* Form */
 .form {
     text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: grey
 }
 
-.navBar {
-    display: inline;
-}
+/* NAVBAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: lightgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  btn {
+    background-color: lightgrey;
+  }
+
+ #fname {
+    background-color: lightgrey;
+  }
